@@ -36,12 +36,10 @@ export const HomeView: FC = ({}) => {
                   Hello Solana <SolanaLogo /> World!
                 </h1>
                 <p className="mb-5">
-                  This scaffold includes awesome tools for rapid development and
-                  deploy dapps to Solana: Next.JS, TypeScript, TailwindCSS,
-                  Daisy UI.
+                  TEAR THE CLUB UP TEAR THE TEAR THE CLUB UP
                 </p>
                 <p className="mb-5">
-                  Sollana wallet adapter is connected and ready to use.
+                  Sollana wallet adapter is connected and ready to use btw.
                 </p>
                 <p>
                   {publicKey ? <>Your address: {publicKey.toBase58()}</> : null}
@@ -56,21 +54,21 @@ export const HomeView: FC = ({}) => {
               <li className="mb-5">
                 <Link href="/gallery">
                   <a className="text-4xl font-bold hover:underline">
-                    🏞 -- NFT Gallery
+                    Test 1
                   </a>
                 </Link>
               </li>
-              {/* <li className="mb-5">
+               <li className="mb-5">
                 <Link href="/mint">
                   <a className="text-4xl font-bold hover:underline">
-                    🍬 -- Candy Machine Mint UI
+                    🍬 -- Tryin to find a minter
                   </a>
                 </Link>
-              </li> */}
+              </li> 
               <li>
                 <Link href="/tweeter">
                   <a className="mb-5 text-4xl font-bold hover:underline">
-                    🐦 -- Solana Tweeter
+                    Test 2
                   </a>
                 </Link>
               </li>
